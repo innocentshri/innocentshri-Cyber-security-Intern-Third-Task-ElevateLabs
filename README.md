@@ -1,7 +1,7 @@
 # Task 3 - Networking Basics for Cyber Security
 
 ## Objective
-To understand basic networking concepts and analyze raal network traffic using Wireshark.
+To understand basic networking concepts and analyze real network traffic using Wireshark.
 
 ## Tools Used
 - Wireshark (Primary Tool)
@@ -18,9 +18,9 @@ To understand basic networking concepts and analyze raal network traffic using W
 ## Steps Performed 
 
 1. Installed Wireshark.
-2. Started live packet capture on the active neetwork interface.
+2. Started live packet capture on the active network interface.
 3. Applied protocol filters:
-   - 'tcp
+   - 'tcp'
    - 'udp'
    - 'dns'
    - 'http'
@@ -37,6 +37,13 @@ To understand basic networking concepts and analyze raal network traffic using W
 ## Observation
 
 1. TCP uses a three-step process to establish a connection, which ensures reliability.
+2. UDP sends packets without connection setup, makingit faster but less reliable.
+3. DNS translates website names into IP addresses.
+4. HTTP traffic is readable, while HTTPS traffic is encrypted.
+5. Packet sniffing allows monitoring of network activity for security analysis.
+
+## Final Outcome
+I learned how to analyze real network traffic and understand basic protocols using Wireshark.
 
 
 
